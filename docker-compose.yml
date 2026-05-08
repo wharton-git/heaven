@@ -1,0 +1,7 @@
+services:
+  heaven-api:
+    build: .
+    container_name: heaven-api
+    ports:
+      - "3450:3450"
+    restart: unless-stopped
