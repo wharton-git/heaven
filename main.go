@@ -45,9 +45,9 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 func infoHandler(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, response{
 		"nom":         "API Heaven",
-		"description": "Backend Go simple qui retourne des informations en JSON",
+		"description": "Murphy Law",
 		"version":     "1.0.0",
-		"auteur":      "Codex",
+		"auteur":      "Xeon",
 	})
 }
 
