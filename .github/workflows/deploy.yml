@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Test Connectivity
-        run: nc -zv -w5 ${{ secrets.SSH_HOST }} 22
+        run: nc -zv -w5 ${{ secrets.VPS_HOST }} 22
       - name: Deploy on VPS
         uses: appleboy/ssh-action@v1.2.5
         with:
