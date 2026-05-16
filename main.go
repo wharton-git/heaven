@@ -45,7 +45,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 func infoHandler(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, response{
 		"nom":         "API Heaven",
-		"description": "Murphy Law",
+		"description": "Finoana wanna see",
 		"version":     "1.0.0",
 		"auteur":      "Xeon",
 	})
